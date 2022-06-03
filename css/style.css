@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #eea153;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+.navbar {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(#733d06, #eea153);
+    display: flex;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 500px;
+    margin-left: 0px;
+}
+
+.links a,
+ul {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-size: 1.2em;
+    transition: all 500ms;
+}
+
+.links a:hover {
+    color: rgb(205, 174, 174);
+    
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+.carrossel {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.carousel-control-next-icon {
+    color: black;
+}
+
+.cartao {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#curiosidades {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    
+}
+
+.videos {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.rodape {
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(#eea153, #733d06);
+}
+
+#endereço {
+    color: white;
+    font-size: 1.4em;
+    padding-top: 80px;
+    padding-left: 20px;
+
+}
+
+#endereço p {
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.designer {
+    text-align: center;
+    padding-top: 130px;
+    color: white;
+}
+
+#social i {
+    float: right;
+    color: white;
+    padding-top: 100px;
+    font-size: 2em;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+#inicio #ativo {
+    color: rgb(205, 174, 174);
+    
+
+}
+
+#frutas #ativo {
+    color: rgb(205, 174, 174);
+    
+}
+
+img,
+iframe {
+    border-radius: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+.faixa{
+    background-image: linear-gradient(#eea153, #a86b2e, #eea153);
+    height: 2200px;
+}
+.altura{
+    height: 382px;
+}
